@@ -203,7 +203,7 @@ footer{
     overflow-x: hidden;
   }
   nav {
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
     align-items: center;
     flex-direction: column;
     text-align: ;
@@ -250,6 +250,10 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .sponsor img{
+    width: 80%;
+    height: auto;
+  }
   .card-container{
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
@@ -269,6 +273,9 @@ footer{
   .main-last{
     flex-direction: column;
     gap: 20px;
+  }
+  nav ul li{
+    white-space: nowrap;
   }
 }
 
@@ -327,5 +334,22 @@ footer{
   }
   .nav ul{
    margin-top: 50px;
+  }
+  nav ul li{
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 470px) {
+  body {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  nav ul li {
+    white-space: nowrap;
   }
 }
