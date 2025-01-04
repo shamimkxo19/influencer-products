@@ -76,6 +76,8 @@ nav ul li {
 }
 .banner-img img {
   background-image: url(images/Circle\ design.svg);
+  background-position-x: 50%;
+  background-repeat: no-repeat;
 }
 .sponsor {
   display: flex;
@@ -296,7 +298,9 @@ footer{
     width: 390px;
   } */
   .banner-img{
-    order: -1; /* Move the image to the top */
+     /* Move the image to the top */
+     width: 80%;
+     height: auto
   }
   .banner-img img {
     margin-right: ;
